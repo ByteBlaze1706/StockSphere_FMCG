@@ -1,0 +1,22 @@
+{
+  "name": "stocksphere",
+  "version": "1.0.0",
+  "description": "StockSphere Inventory & Analytics System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Manasvi Bhardwaj",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "multer": "^2.1.1",
+    "pdfkit": "^0.18.0",
+    "sqlite3": "5.1.6",
+    "xlsx": "^0.18.5"
+  }
+}
